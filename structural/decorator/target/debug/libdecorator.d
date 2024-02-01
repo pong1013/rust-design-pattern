@@ -1,1 +1,0 @@
-/workspaces/rust/rust-design-pattern/structural/decorator/target/debug/libdecorator.rlib: /workspaces/rust/rust-design-pattern/structural/decorator/src/beverage/coffee.rs /workspaces/rust/rust-design-pattern/structural/decorator/src/beverage.rs /workspaces/rust/rust-design-pattern/structural/decorator/src/lib.rs

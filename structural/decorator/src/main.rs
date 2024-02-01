@@ -3,12 +3,12 @@ use decorator::*;
 
 fn main() {
     let beverage = Espresso;
-    println!("Espresso: {}", beverage.cost());
+    println!("{}: {}", beverage.discription(), beverage.cost());
 
     let mut mocha = Mocha::new(Box::new(beverage));
     mocha = Mocha::new(Box::new(mocha));
-    println!("Espresso with 2 mocha: {}", mocha.cost());
+    println!("{}: {}", mocha.discription(), mocha.cost());
 
     let whip = Whip::new(Box::new(mocha));
-    println!("Espresso with 2 mocha and 1 whip: {}", whip.cost());
+    println!("{}: {}", whip.discription(), whip.cost());
 }
