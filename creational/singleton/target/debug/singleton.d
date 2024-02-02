@@ -1,1 +1,0 @@
-/workspaces/rust/rust-design-pattern/creational/singleton/target/debug/singleton: /workspaces/rust/rust-design-pattern/creational/singleton/src/lib.rs /workspaces/rust/rust-design-pattern/creational/singleton/src/main.rs /workspaces/rust/rust-design-pattern/creational/singleton/src/singleton.rs
