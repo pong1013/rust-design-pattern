@@ -9,7 +9,13 @@ This repository is a study implementation inspired by "Head First Design Pattern
   
 >**Ch1. Strategy Patterns** 
 
->**Ch2. Observer Patterns** 
+>**Ch2. Observer Patterns**
+
+>**Ch6. Command Patterns**
+
+- On, Off button
+- Undo
+- Macro Party
 
 ### Structural Patterns
 
