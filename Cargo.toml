@@ -1,4 +1,4 @@
-workspace = { members = ["src/behavioral/command/command_1", "src/behavioral/command/command_2", "src/behavioral/command/command_3"] }
+workspace = { members = ["src/behavioral/command/command_1", "src/behavioral/command/command_2", "src/behavioral/command/command_3", "src/behavioral/template"] }
 [package]
 name = "rust-design-pattern"
 version = "0.1.0"
