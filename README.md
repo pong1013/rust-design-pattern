@@ -25,7 +25,8 @@ This repository is a study implementation inspired by "Head First Design Pattern
 
 ### Structural Patterns
 
-- [x] **Ch3. Decorator Patterns** 
+- [x] **Ch3. Decorator Patterns**
+- [x] **Ch7. Adapter & Facade Patterns** 
 
 ### Creational Patterns
   
