@@ -1,5 +1,5 @@
 use super::GumballMachine;
-use crate::states::has_quater::HasQuarterState;
+use super::HasQuarterState;
 use crate::State;
 
 pub struct NoQuarterState;
