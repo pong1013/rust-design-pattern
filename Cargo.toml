@@ -1,5 +1,3 @@
-workspace = { members = [] }
-
 [package]
 name = "rust-design-pattern"
 version = "0.1.0"

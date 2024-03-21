@@ -10,21 +10,19 @@ impl Waitress {
         Waitress { pancake, diner }
     }
 
-    pub fn print_menu(&self, pancake: PancakeHouseMenu, diner: DinerMenu) {
-        let pancake_iter = Box::new(pancake.create_iter().clone().into_iter())
-            as Box<dyn Iterator<Item = MenuItem>>;
-        let diner_iter =
-            Box::new(diner.create_iter().clone().into_iter()) as Box<dyn Iterator<Item = MenuItem>>;
+    pub fn print_menu(self) {
+        let pancake_iter: std::vec::IntoIter<MenuItem> = self.pancake.create_iter();
+        let diner_iter: std::array::IntoIter<MenuItem, 6> = self.diner.create_iter();
         println!("Menu\n----\nBreakfast");
-        self.print_menu_private(pancake_iter);
+        Waitress::print_menu_private(pancake_iter);
         println!("\nLunch");
-        self.print_menu_private(diner_iter);
+        Waitress::print_menu_private(diner_iter);
     }
 
-    fn print_menu_private(&self, mut iterator: Box<dyn Iterator<Item = MenuItem>>) {
+    fn print_menu_private(mut iterator: impl Iterator<Item = MenuItem>) {
         while let Some(item) = iterator.next() {
             println!(
-                "Name: {}, Price: {}, Description: {}, Vegetarian: {}",
+                "{}  ${}  {} Vegetarian: {}",
                 item.get_name(),
                 item.get_price(),
                 item.get_description(),
