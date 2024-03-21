@@ -1,6 +1,5 @@
-workspace = { members = [] }
 [package]
-name = "rust-design-pattern"
+name = "iterator"
 version = "0.1.0"
 edition = "2021"
 

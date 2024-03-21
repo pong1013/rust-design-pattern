@@ -15,6 +15,10 @@ name = "command_3"
 version = "0.1.0"
 
 [[package]]
+name = "iterator"
+version = "0.1.0"
+
+[[package]]
 name = "rust-design-pattern"
 version = "0.1.0"
 
