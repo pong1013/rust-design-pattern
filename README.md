@@ -19,7 +19,8 @@ This repository is a study implementation inspired by "Head First Design Pattern
   > - Macro Party
 
 - [x] **Ch8. Template Patterns**
-
+    
+- [x] **Ch9. Iterator Patterns**
 
 - [x] **Ch10. State Patterns**
 
@@ -27,6 +28,7 @@ This repository is a study implementation inspired by "Head First Design Pattern
 
 - [x] **Ch3. Decorator Patterns**
 - [x] **Ch7. Adapter & Facade Patterns** 
+- [x] **Ch9. Composite Patterns**
 
 ### Creational Patterns
   
@@ -40,3 +42,5 @@ This repository is a study implementation inspired by "Head First Design Pattern
 
   > - Chocolate boiler
   > - Chocolate mutex
+  
+
