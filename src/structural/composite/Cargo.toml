@@ -1,6 +1,5 @@
-workspace = { members = ["src/structural/composite"] }
 [package]
-name = "rust-design-pattern"
+name = "composite"
 version = "0.1.0"
 edition = "2021"
 
